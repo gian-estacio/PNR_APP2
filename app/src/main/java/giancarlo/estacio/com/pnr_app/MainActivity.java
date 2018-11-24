@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,Screen2.class);
         startActivity(i);
     }
+    public void display(View v){
+        Intent i = new Intent(this,aboutus.class);
+        startActivity(i);
+    }
 
 }
 

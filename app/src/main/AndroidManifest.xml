@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Screen2" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".trivia2"></activity>
     </application>
 
 </manifest>
