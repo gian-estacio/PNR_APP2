@@ -18,7 +18,36 @@
         </activity>
         <activity android:name=".Screen2" />
         <activity android:name=".aboutus" />
-        <activity android:name=".trivia2"></activity>
+        <activity android:name=".trivia2" />
+        <activity android:name=".Fares" />
+        <activity android:name=".Alabang" />
+        <activity android:name=".Bicutan" />
+        <activity android:name=".Binan" />
+        <activity android:name=".Blumentritt" />
+        <activity android:name=".Beundia" />
+        <activity android:name=".Buendia" />
+        <activity android:name=".Cabuyao" />
+        <activity android:name=".Calamba" />
+        <activity android:name=".Edsa" />
+        <activity android:name=".Espana" />
+        <activity android:name=".FoodT" />
+        <activity android:name=".Golden" />
+        <activity android:name=".Laon" />
+        <activity android:name=".Mamatid" />
+        <activity android:name=".Manila" />
+        <activity android:name=".Muntinlupa" />
+        <activity android:name=".Nichols" />
+        <activity android:name=".Pacita" />
+        <activity android:name=".Paco" />
+        <activity android:name=".Pandacan" />
+        <activity android:name=".PasayRoad" />
+        <activity android:name=".SanAndres" />
+        <activity android:name=".SanPerdro" />
+        <activity android:name=".SanPedro" />
+        <activity android:name=".SantaRosa" />
+        <activity android:name=".StaMesa" />
+        <activity android:name=".Sucat" />
+        <activity android:name=".VitoCruz"></activity>
     </application>
 
 </manifest>

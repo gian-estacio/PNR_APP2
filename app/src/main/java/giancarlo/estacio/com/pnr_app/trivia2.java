@@ -17,5 +17,11 @@ public class trivia2 extends AppCompatActivity {
         Intent i = new Intent(this,Screen2.class);
         startActivity(i);
     }
+    public void Fares(View v) {
+        Intent i = new Intent(this, Fares.class);
+        startActivity(i);
+
+    }
+
 
 }

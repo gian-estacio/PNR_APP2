@@ -12,16 +12,25 @@ public class Screen2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.trivias);
     }
-    public void home(View v){
-        Intent i = new Intent(this,MainActivity.class);
+
+    public void home(View v) {
+        Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
-    public void display2(View v){
-        Intent i = new Intent(this,Screen2.class);
+
+    public void display2(View v) {
+        Intent i = new Intent(this, Screen2.class);
         startActivity(i);
     }
-    public void trivia2(View v){
-        Intent i = new Intent(this,trivia2.class);
+
+    public void trivia2(View v) {
+        Intent i = new Intent(this, trivia2.class);
         startActivity(i);
     }
+    public void Fares(View v) {
+        Intent i = new Intent(this, Fares.class);
+        startActivity(i);
+
+    }
+
 }
