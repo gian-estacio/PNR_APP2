@@ -24,7 +24,6 @@
         <activity android:name=".Bicutan" />
         <activity android:name=".Binan" />
         <activity android:name=".Blumentritt" />
-        <activity android:name=".Beundia" />
         <activity android:name=".Buendia" />
         <activity android:name=".Cabuyao" />
         <activity android:name=".Calamba" />
@@ -42,7 +41,6 @@
         <activity android:name=".Pandacan" />
         <activity android:name=".PasayRoad" />
         <activity android:name=".SanAndres" />
-        <activity android:name=".SanPerdro" />
         <activity android:name=".SanPedro" />
         <activity android:name=".SantaRosa" />
         <activity android:name=".StaMesa" />

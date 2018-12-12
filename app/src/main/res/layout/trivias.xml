@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffef96">
 
     <Button
         android:id="@+id/angry_btn"
@@ -12,14 +12,17 @@
         android:layout_height="60dp"
         android:background="@drawable/buttonshape"
 
+        android:fontFamily="monospace"
         android:onClick="display2"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
         android:text="Trivias"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp" />
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/angry_btn1"
@@ -30,13 +33,16 @@
 
         android:layout_centerHorizontal="true"
         android:background="@drawable/buttonshape"
+        android:fontFamily="monospace"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
         android:text="Routes"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp" />
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/angry_btn2"
@@ -47,20 +53,17 @@
 
         android:layout_alignParentEnd="true"
         android:background="@drawable/buttonshape"
+        android:fontFamily="monospace"
         android:onClick="Fares"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
         android:text="Fares"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
@@ -70,8 +73,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="64dp"
         android:layout_marginTop="418dp"
+        android:fontFamily="casual"
         android:text="June 25, 1875 - King ALFONSO XII of Spain promulgates the Royal Decree directing the Office of the Inspector of Public Works of the Philippines to submit a   general plan of railroad in Luzon"
-        android:textColor="@android:color/black" />
+        android:textColor="#232F4F"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView4"
@@ -81,8 +86,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="44dp"
         android:layout_marginTop="79dp"
+        android:fontFamily="casual"
         android:text="Did You Know?"
-        android:textColor="@android:color/black"
+        android:textColor="#232F4F"
         android:textSize="36sp"
         android:textStyle="bold" />
 
@@ -103,8 +109,13 @@
         android:layout_alignEnd="@+id/textView3"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="22dp"
+        android:background="#232F4F"
+        android:fontFamily="monospace"
         android:onClick="trivia2"
-        android:text="Next" />
+        android:text="Next"
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button5"
@@ -112,7 +123,12 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView3"
         android:layout_alignTop="@+id/button4"
+        android:background="#232F4F"
+        android:fontFamily="monospace"
         android:onClick="home"
-        android:text="Back" />
+        android:text="Back"
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textStyle="bold" />
 
 </RelativeLayout>

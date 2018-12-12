@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/angry_btn12"
+
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/buttonshape"
+                android:fontFamily="monospace"
+                android:onClick="display2"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Trivias"
+                android:textAlignment="center"
+                android:textColor="#ffef96"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/angry_btn13"
+
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="monospace"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Routes"
+                android:textAlignment="center"
+                android:textColor="#ffef96"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/angry_btn14"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="monospace"
+                android:onClick="Fares"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Fares"
+                android:textAlignment="center"
+                android:textColor="#ffef96"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Manila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayManila"
+            android:text="Manila (Tutuban)"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Blumentritt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayBlumentritt"
+            android:text="Blumentritt"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Laon-Laan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:onClick="displayLaon"
+            android:text="Laon-Laan"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Espana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayEspana"
+            android:text="Espana"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Sta.Mesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayStaMesa"
+            android:text="Sta. Mesa"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Pandacan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayPandacan"
+            android:text="Pandacan"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Paco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayPaco"
+            android:text="Paco"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/SanAndres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displaySanAndres"
+            android:text="San Andres"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/VitoCruz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayVitoCruz"
+            android:text="Vito Cruz"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Buendia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayBuendia"
+            android:text="Buendia"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/PasayRoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayPasay"
+            android:text="Pasay Road"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Edsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayEdsa"
+            android:text="Edsa"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Nichols"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayNichols"
+            android:text="Nichols"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/FoodTerminal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayFoodTerm"
+            android:text="Food Terminal"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Bicutan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayBicutan"
+            android:text="Bicutan"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Sucat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displaySucat"
+            android:text="Sucat"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Alabang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayAlabang"
+            android:text="Alabang"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Muntinlupa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayMuntinlupa"
+            android:text="Muntinlupa"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/SanPedro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displaySanPedro"
+            android:text="San Pedro"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/PacitaMG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayPacita"
+            android:text="Pacita Main Gate"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/GoldenCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayGolden"
+            android:text="Golden City 1"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Binan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayBinan"
+            android:text="Binan"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/SantaRosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayStaRosa"
+            android:text="Santa Rosa"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Cabuyao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayCabuyao"
+            android:text="Cabuyao"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Mamatid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayMamatid"
+            android:text="Mamatid"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Calamba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:onClick="displayCalamba"
+            android:text="Calamba"
+            android:textAlignment="viewStart"
+            android:textColor="#ffef96"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
