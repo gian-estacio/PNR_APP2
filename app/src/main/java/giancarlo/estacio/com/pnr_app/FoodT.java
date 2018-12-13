@@ -4,6 +4,7 @@ package giancarlo.estacio.com.pnr_app;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -77,6 +78,16 @@ public class FoodT extends AppCompatActivity implements AdapterView.OnItemSelect
         Intent i = new Intent(this, Fares.class);
         startActivity(i);
     }
+    public void MapFood(View v){
+              Intent i=null, chooser=null;
+             if(v.getId()== R.id.FoodMap){
+                 i = new Intent(Intent.ACTION_VIEW);
+                 i.setData(Uri.parse("geo:14.503241, 121.043757"));
+               chooser = Intent.createChooser(i, "Select your Map app");
+               startActivity(i);
+            }
+
+          }
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         // On selecting a spinner item

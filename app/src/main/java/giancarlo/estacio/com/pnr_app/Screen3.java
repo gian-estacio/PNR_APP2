@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class trivia2 extends AppCompatActivity {
+public class Screen3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.trivia2);
+        setContentView(R.layout.trivia3);
     }
 
     public void display2(View v){
@@ -21,10 +21,12 @@ public class trivia2 extends AppCompatActivity {
         Intent i = new Intent(this, Fares.class);
         startActivity(i);
     }
-    public void trivia3(View v) {
-        Intent i = new Intent(this, Screen3.class);
+    public void trivia2(View v){
+        Intent i= new Intent(this, trivia2.class);
         startActivity(i);
     }
-
-
+    public void trivia4(View v){
+        Intent i= new Intent(this, trivia4.class);
+        startActivity(i);
+    }
 }

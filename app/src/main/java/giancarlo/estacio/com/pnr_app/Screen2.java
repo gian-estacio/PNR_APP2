@@ -14,7 +14,7 @@ public class Screen2 extends AppCompatActivity {
     }
 
     public void home(View v) {
-        Intent i = new Intent(this, MainActivity.class);
+        Intent i = new Intent(this, main_activity.class);
         startActivity(i);
     }
 
@@ -25,6 +25,10 @@ public class Screen2 extends AppCompatActivity {
 
     public void trivia2(View v) {
         Intent i = new Intent(this, trivia2.class);
+        startActivity(i);
+    }
+    public void trivia3(View v) {
+        Intent i = new Intent(this, Screen3.class);
         startActivity(i);
     }
     public void Fares(View v) {

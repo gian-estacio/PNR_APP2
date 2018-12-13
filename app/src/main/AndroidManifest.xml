@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".main_activity"
+            android:label="app">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,7 +47,11 @@
         <activity android:name=".SantaRosa" />
         <activity android:name=".StaMesa" />
         <activity android:name=".Sucat" />
-        <activity android:name=".VitoCruz"></activity>
+        <activity android:name=".VitoCruz" />
+        <activity android:name=".Screen3" />
+        <activity android:name=".trivia4" />
+        <activity android:name=".trivia5" />
+        <activity android:name=".Trivia6"></activity>
     </application>
 
 </manifest>

@@ -14,7 +14,7 @@ public class Fares extends AppCompatActivity {
     }
 
     public void home(View v) {
-        Intent i = new Intent(this, MainActivity.class);
+        Intent i = new Intent(this, main_activity.class);
         startActivity(i);
     }
 

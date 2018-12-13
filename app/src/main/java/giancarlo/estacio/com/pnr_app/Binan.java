@@ -3,6 +3,7 @@ package giancarlo.estacio.com.pnr_app;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -75,6 +76,16 @@ public class Binan extends AppCompatActivity implements AdapterView.OnItemSelect
     public void Fares(View v) {
         Intent i = new Intent(this, Fares.class);
         startActivity(i);
+    }
+    public void MapBinan(View v){
+        Intent i=null, chooser=null;
+        if(v.getId()== R.id.BinanMap){
+            i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse("geo:14.331645,121.080875"));
+            chooser = Intent.createChooser(i, "Select your Map app");
+            startActivity(i);
+        }
+
     }
 
     @Override

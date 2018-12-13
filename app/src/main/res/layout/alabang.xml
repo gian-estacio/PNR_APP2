@@ -140,15 +140,15 @@
         app:layout_constraintTop_toBottomOf="@+id/eFare" />
 
     <Button
-        android:id="@+id/button"
 
+        android:id="@+id/backbutton"
         android:layout_width="111dp"
         android:layout_height="63dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#034F84"
+        android:background="@drawable/button_l"
         android:fontFamily="monospace"
         android:onClick="Fares"
         android:text="Back"
@@ -158,10 +158,34 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907" />
+        app:layout_constraintVertical_bias="0.88" />
+
+    <Button
+
+        android:id="@+id/AlabangMap"
+        android:layout_width="111dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/button_l"
+        android:fontFamily="monospace"
+        android:onClick="Fares"
+        android:text="Show Map"
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
 
 
 </android.support.constraint.ConstraintLayout>

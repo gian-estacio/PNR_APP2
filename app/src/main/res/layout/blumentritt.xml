@@ -7,8 +7,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="#ffef96"
     >
+
+    <Button
+
+        android:id="@+id/BlumentrittMap"
+        android:layout_width="111dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_l"
+        android:fontFamily="monospace"
+        android:onClick="MapBlumentritt"
+        android:text="Show Map"
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88" />
 
     <TextView
         android:id="@+id/textView7"
@@ -131,22 +155,26 @@
         app:layout_constraintTop_toBottomOf="@+id/eFare" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="158dp"
-        android:layout_height="70dp"
+        android:id="@+id/button7"
+        android:layout_width="111dp"
+        android:layout_height="63dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="18dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="4dp"
-        android:background="@drawable/button"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/button_l"
+        android:fontFamily="monospace"
         android:onClick="Fares"
         android:text="Back"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="#ffef96"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905" />
+        app:layout_constraintVertical_bias="0.88" />
 
 </android.support.constraint.ConstraintLayout>

@@ -3,6 +3,7 @@ package giancarlo.estacio.com.pnr_app;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -75,6 +76,16 @@ public class Pacita extends AppCompatActivity implements AdapterView.OnItemSelec
     public void Fares(View v) {
         Intent i = new Intent(this, Fares.class);
         startActivity(i);
+    }
+    public void MapPacita(View v){
+             Intent i=null, chooser=null;
+             if(v.getId()== R.id.PacitaMap){
+                 i = new Intent(Intent.ACTION_VIEW);
+                 i.setData(Uri.parse("geo:14.346979, 121.0636579"));
+                 chooser = Intent.createChooser(i, "Select your Map app");
+                 startActivity(i);
+             }
+
     }
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
